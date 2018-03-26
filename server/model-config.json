@@ -16,5 +16,9 @@
   "statute": {
     "dataSource": "mongoDs",
     "public": true
+  },
+  "agreement": {
+    "dataSource": "mongoDs",
+    "public": true
   }
 }

@@ -7,9 +7,9 @@
     "host": "localhost",
     "port": 27017,
     "url": "",
-    "maxRows": 2000,
     "database": "GhatreFoundationDB",
     "name": "mongoDs",
+    "maxRows": 2000,
     "connector": "mongodb"
   },
   "fileStorage": {
