@@ -11,5 +11,12 @@
     "database": "GhatreFoundationDB",
     "name": "mongoDs",
     "connector": "mongodb"
+  },
+  "fileStorage": {
+    "name": "fileStorage",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "./fileStorage",
+    "maxFileSize": "52428800"
   }
 }
