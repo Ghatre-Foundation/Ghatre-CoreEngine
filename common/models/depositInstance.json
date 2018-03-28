@@ -87,6 +87,12 @@
       "type": "hasOne",
       "model": "agreement",
       "foreignKey": "depositInstanceId"
+    },
+    "clientsRel": {
+      "type": "hasMany",
+      "model": "client",
+      "foreignKey": "depositInstanceId",
+      "through": "depositPresence"
     }
   },
   "acls": [],
