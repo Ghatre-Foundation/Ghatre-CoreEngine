@@ -50,6 +50,11 @@
       "type": "belongsTo",
       "model": "client",
       "foreignKey": "clientId"
+    },
+    "instanceRel": {
+      "type": "belongsTo",
+      "model": "depositInstance",
+      "foreignKey": "depositInstanceId"
     }
   },
   "acls": [],
