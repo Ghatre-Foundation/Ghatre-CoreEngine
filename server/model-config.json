@@ -41,6 +41,10 @@
     "dataSource": "mongoDs",
     "public": true
   },
+  "clientReceipt": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
   "container": {
     "dataSource": "fileStorage",
     "public": true
@@ -74,10 +78,6 @@
     "public": true
   },
   "lotteryPresence": {
-    "dataSource": "mongoDs",
-    "public": true
-  },
-  "receipt": {
     "dataSource": "mongoDs",
     "public": true
   },
