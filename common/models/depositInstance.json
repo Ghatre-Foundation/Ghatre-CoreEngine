@@ -1,0 +1,78 @@
+{
+  "name": "depositInstance",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "membershipDate": {
+      "type": "number",
+      "required": true
+    },
+    "beginningDate": {
+      "type": "number",
+      "required": true
+    },
+    "endingDate": {
+      "type": "number",
+      "required": true
+    },
+    "stopDate": {
+      "type": "number",
+      "required": true
+    },
+    "drawDate": {
+      "type": "number",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "explanation": {
+      "type": "string",
+      "required": true
+    },
+    "createDate": {
+      "type": "number",
+      "required": true
+    },
+    "filledCapacity": {
+      "type": "number",
+      "required": true
+    },
+    "remainingCapacity": {
+      "type": "number",
+      "required": true
+    },
+    "lastEntranceDate": {
+      "type": "number",
+      "required": true
+    },
+    "status": {
+      "type": "string",
+      "required": true
+    },
+    "currentFund": {
+      "type": "number",
+      "required": true
+    },
+    "targetFund": {
+      "type": "number",
+      "required": true
+    },
+    "payableFund": {
+      "type": "number",
+      "required": true
+    },
+    "adminMessage": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
