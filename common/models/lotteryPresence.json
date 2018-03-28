@@ -25,6 +25,11 @@
       "type": "hasMany",
       "model": "lotteryFinance",
       "foreignKey": "lotteryPresenceId"
+    },
+    "clientRel": {
+      "type": "belongsTo",
+      "model": "client",
+      "foreignKey": "clientId"
     }
   },
   "acls": [],
