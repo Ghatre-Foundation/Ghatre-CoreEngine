@@ -1,0 +1,26 @@
+{
+  "name": "clientFinance",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "balance": {
+      "type": "number",
+      "required": true
+    },
+    "inputs": {
+      "type": "number",
+      "required": true
+    },
+    "outputs": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
