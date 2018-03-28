@@ -53,7 +53,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "networksRel": {
+      "type": "hasMany",
+      "model": "clientNetwork",
+      "foreignKey": "clientId"
+    }
+  },
   "acls": [],
   "methods": {}
 }
