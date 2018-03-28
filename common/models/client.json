@@ -58,6 +58,11 @@
       "type": "hasMany",
       "model": "clientNetwork",
       "foreignKey": "clientId"
+    },
+    "referralsRel": {
+      "type": "hasMany",
+      "model": "referral",
+      "foreignKey": "clientId"
     }
   },
   "acls": [],
