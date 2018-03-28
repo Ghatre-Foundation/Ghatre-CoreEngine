@@ -56,7 +56,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "lotteryRel": {
+      "type": "belongsTo",
+      "model": "lottery",
+      "foreignKey": "lotteryId"
+    }
+  },
   "acls": [],
   "methods": {}
 }
