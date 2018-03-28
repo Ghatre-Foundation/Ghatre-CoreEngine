@@ -78,6 +78,11 @@
       "type": "hasOne",
       "model": "clientInfo",
       "foreignKey": "clientId"
+    },
+    "financeRel": {
+      "type": "hasOne",
+      "model": "clientFinance",
+      "foreignKey": "clientId"
     }
   },
   "acls": [],
