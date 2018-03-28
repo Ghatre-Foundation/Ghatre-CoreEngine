@@ -52,7 +52,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "instanceRel": {
+      "type": "hasMany",
+      "model": "lotteryInstance",
+      "foreignKey": "lotteryId"
+    }
+  },
   "acls": [],
   "methods": {}
 }
