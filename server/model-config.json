@@ -13,11 +13,76 @@
       "./mixins"
     ]
   },
-  "statute": {
+  "agreement": {
     "dataSource": "mongoDs",
     "public": true
   },
-  "agreement": {
+  "client": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "clientDocument": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "clientFinance": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "clientInfo": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "clientNetwork": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "container": {
+    "dataSource": "fileStorage",
+    "public": true
+  },
+  "deposit": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "depositFinance": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "depositInstance": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "depositPresence": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+
+  "lottery": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "lotteryFinance": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "lotteryInstance": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "lotteryPresence": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "receipt": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "referral": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "statute": {
     "dataSource": "mongoDs",
     "public": true
   }
