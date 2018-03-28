@@ -71,6 +71,12 @@
       "type": "hasOne",
       "model": "agreement",
       "foreignKey": "lotteryInstanceId"
+    },
+    "clientsRel": {
+      "type": "hasMany",
+      "model": "client",
+      "foreignKey": "lotteryInstanceId",
+      "through": "lotteryPresence"
     }
   },
   "acls": [],
