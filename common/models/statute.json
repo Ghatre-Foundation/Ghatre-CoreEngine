@@ -6,6 +6,22 @@
     "validateUpsert": true
   },
   "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "explanation": {
+      "type": "string",
+      "required": true
+    },
+    "lastUpdate": {
+      "type": "number",
+      "required": true
+    },
+    "version": {
+      "type": "number",
+      "required": true
+    },
     "content": {
       "type": "string",
       "required": true
