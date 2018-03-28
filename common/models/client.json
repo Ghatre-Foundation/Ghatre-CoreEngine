@@ -88,6 +88,11 @@
       "type": "hasOne",
       "model": "clientDocument",
       "foreignKey": "clientId"
+    },
+    "depositFinancesRel": {
+      "type": "hasMany",
+      "model": "depositFinance",
+      "foreignKey": "clientId"
     }
   },
   "acls": [],
