@@ -59,7 +59,7 @@
   "relations": {
     "depositInstancesRel": {
       "type": "hasMany",
-      "model": "depostInstance",
+      "model": "depositInstance",
       "foreignKey": "agreementId"
     },
     "clientRel": {

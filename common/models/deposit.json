@@ -67,7 +67,7 @@
   "relations": {
     "instanceRel": {
       "type": "hasMany",
-      "model": "depostInstance",
+      "model": "depositInstance",
       "foreignKey": "depositId"
     },
     "statuteRel": {
