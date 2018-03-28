@@ -33,7 +33,7 @@
     "dataSource": "mongoDs",
     "public": true
   },
-  "clientInfo": {
+  "clientInformation": {
     "dataSource": "mongoDs",
     "public": true
   },
