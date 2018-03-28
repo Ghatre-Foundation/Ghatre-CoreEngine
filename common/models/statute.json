@@ -44,7 +44,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "depositsRel": {
+      "type": "hasMany",
+      "model": "depost",
+      "foreignKey": "depositId"
+    }
+  },
   "acls": [],
   "methods": {}
 }
