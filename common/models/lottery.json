@@ -57,6 +57,11 @@
       "type": "hasMany",
       "model": "lotteryInstance",
       "foreignKey": "lotteryId"
+    },
+    "statuteRel": {
+      "type": "hasOne",
+      "model": "statute",
+      "foreignKey": "lotteryId"
     }
   },
   "acls": [],
