@@ -40,7 +40,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "depositFinanceRel": {
+      "type": "hasMany",
+      "model": "depositFinance",
+      "foreignKey": "depositPresenceId"
+    }
+  },
   "acls": [],
   "methods": {}
 }
