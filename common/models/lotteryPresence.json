@@ -1,0 +1,26 @@
+{
+  "name": "lotteryPresence",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "status": {
+      "type": "string",
+      "required": true
+    },
+    "userTurn": {
+      "type": "number",
+      "required": true
+    },
+    "adminMessage": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
