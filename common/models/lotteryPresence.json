@@ -20,7 +20,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "lotteryFinanceRel": {
+      "type": "hasMany",
+      "model": "lotteryFinance",
+      "foreignKey": "lotteryPresenceId"
+    }
+  },
   "acls": [],
   "methods": {}
 }
