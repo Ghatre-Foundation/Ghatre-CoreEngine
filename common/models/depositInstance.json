@@ -78,7 +78,7 @@
       "model": "deposit",
       "foreignKey": "depositId"
     },
-    "financeRel": {
+    "financesRel": {
       "type": "hasMany",
       "model": "depositFinance",
       "foreignKey": "depositInstanceId"

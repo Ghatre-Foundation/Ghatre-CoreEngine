@@ -41,7 +41,7 @@
   },
   "validations": [],
   "relations": {
-    "depositFinanceRel": {
+    "financesRel": {
       "type": "hasMany",
       "model": "depositFinance",
       "foreignKey": "depositPresenceId"

@@ -29,7 +29,7 @@
   },
   "validations": [],
   "relations": {
-    "depositInstanceRel": {
+    "instanceRel": {
       "type": "belongsTo",
       "model": "depositInstance",
       "foreignKey": "depositInstanceId"
@@ -39,7 +39,7 @@
       "model": "client",
       "foreignKey": "clientId"
     },
-    "depositPresenceRel": {
+    "presenceRel": {
       "type": "belongsTo",
       "model": "depositPresence",
       "foreignKey": "depositPresenceId"

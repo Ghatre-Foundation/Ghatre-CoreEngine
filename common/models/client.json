@@ -76,7 +76,7 @@
     },
     "informationRel": {
       "type": "hasOne",
-      "model": "clientInfo",
+      "model": "clientInformation",
       "foreignKey": "clientId"
     },
     "financeRel": {

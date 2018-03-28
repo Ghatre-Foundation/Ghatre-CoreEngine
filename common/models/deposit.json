@@ -65,7 +65,7 @@
   },
   "validations": [],
   "relations": {
-    "instanceRel": {
+    "instancesRel": {
       "type": "hasMany",
       "model": "depositInstance",
       "foreignKey": "depositId"
