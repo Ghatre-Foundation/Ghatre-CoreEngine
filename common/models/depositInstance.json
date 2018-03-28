@@ -72,7 +72,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "depositRel": {
+      "type": "belongsTo",
+      "model": "deposit",
+      "foreignKey": "depositId"
+    }
+  },
   "acls": [],
   "methods": {}
 }
