@@ -45,6 +45,11 @@
       "type": "hasMany",
       "model": "depositFinance",
       "foreignKey": "depositPresenceId"
+    },
+    "clientRel": {
+      "type": "belongsTo",
+      "model": "client",
+      "foreignKey": "clientId"
     }
   },
   "acls": [],
