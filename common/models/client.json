@@ -68,6 +68,11 @@
       "type": "hasMany",
       "model": "receipt",
       "foreignKey": "clientId"
+    },
+    "creditCardsRel": {
+      "type": "hasMany",
+      "model": "clientCreditCard",
+      "foreignKey": "clientId"
     }
   },
   "acls": [],
