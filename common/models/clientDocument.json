@@ -1,0 +1,46 @@
+{
+  "name": "clientDocument",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nationalCardFileURL": {
+      "type": "string",
+      "required": true
+    },
+    "nationalCardFilePath": {
+      "type": "string",
+      "required": true
+    },
+    "nationalCardStatus": {
+      "type": "string",
+      "required": true
+    },
+    "nationalCardAdminMessage": {
+      "type": "string",
+      "required": true
+    },
+    "birthCertificateFileURL": {
+      "type": "string",
+      "required": true
+    },
+    "birthCertificateFilePath": {
+      "type": "string",
+      "required": true
+    },
+    "birthCertificateStatus": {
+      "type": "string",
+      "required": true
+    },
+    "birthCertificateAdminMessage": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
