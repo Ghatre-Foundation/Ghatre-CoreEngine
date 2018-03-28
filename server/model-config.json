@@ -21,6 +21,10 @@
     "dataSource": "mongoDs",
     "public": true
   },
+  "clientCreditCard": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
   "clientDocument": {
     "dataSource": "mongoDs",
     "public": true
