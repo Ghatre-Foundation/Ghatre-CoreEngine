@@ -69,6 +69,11 @@
       "type": "hasMany",
       "model": "depostInstance",
       "foreignKey": "depositId"
+    },
+    "statuteRel": {
+      "type": "hasOne",
+      "model": "statute",
+      "foreignKey": "depositId"
     }
   },
   "acls": [],
