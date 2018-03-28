@@ -30,6 +30,11 @@
       "type": "belongsTo",
       "model": "client",
       "foreignKey": "clientId"
+    },
+    "instanceRel": {
+      "type": "belongsTo",
+      "model": "lotteryInstance",
+      "foreignKey": "lotteryInstanceId"
     }
   },
   "acls": [],
