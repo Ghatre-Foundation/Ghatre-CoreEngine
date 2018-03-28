@@ -61,6 +61,11 @@
       "type": "belongsTo",
       "model": "lottery",
       "foreignKey": "lotteryId"
+    },
+    "financeRel": {
+      "type": "hasMany",
+      "model": "lotteryFinance",
+      "foreignKey": "lotteryInstanceId"
     }
   },
   "acls": [],
