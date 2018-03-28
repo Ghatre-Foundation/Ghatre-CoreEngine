@@ -98,6 +98,12 @@
       "type": "hasMany",
       "model": "lotteryFinance",
       "foreignKey": "clientId"
+    },
+    "depositInstancesRel": {
+      "type": "hasMany",
+      "model": "deposit",
+      "foreignKey": "clientId",
+      "through": "depositPresence"
     }
   },
   "acls": [],
