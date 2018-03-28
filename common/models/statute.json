@@ -48,7 +48,12 @@
     "depositsRel": {
       "type": "hasMany",
       "model": "deposit",
-      "foreignKey": "depositId"
+      "foreignKey": "statueId"
+    },
+    "lotteriesRel": {
+      "type": "hasMany",
+      "model": "lottery",
+      "foreignKey": "statueId"
     }
   },
   "acls": [],
