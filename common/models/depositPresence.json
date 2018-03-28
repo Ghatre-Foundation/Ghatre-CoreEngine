@@ -1,0 +1,46 @@
+{
+  "name": "depositPresence",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "depositJoinDate": {
+      "type": "number",
+      "required": true
+    },
+    "sharesPurchaseDate": {
+      "type": "number",
+      "required": true
+    },
+    "sharesCount": {
+      "type": "number",
+      "required": true
+    },
+    "inputByShares": {
+      "type": "number",
+      "required": true
+    },
+    "outputByShares": {
+      "type": "number",
+      "required": true
+    },
+    "status": {
+      "type": "string",
+      "required": true
+    },
+    "userTurn": {
+      "type": "number",
+      "required": true
+    },
+    "adminMessage": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
