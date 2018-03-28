@@ -38,6 +38,11 @@
       "type": "belongsTo",
       "model": "client",
       "foreignKey": "clientId"
+    },
+    "depositPresenceRel": {
+      "type": "belongsTo",
+      "model": "depositPresence",
+      "foreignKey": "depositPresenceId"
     }
   },
   "acls": [],
