@@ -1,0 +1,58 @@
+{
+  "name": "lottery",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "capacity": {
+      "type": "number",
+      "required": true
+    },
+    "period": {
+      "type": "number",
+      "required": true
+    },
+    "duration": {
+      "type": "number",
+      "required": true
+    },
+    "membershipFee": {
+      "type": "number",
+      "required": true
+    },
+    "status": {
+      "type": "string",
+      "required": true
+    },
+    "entranceFee": {
+      "type": "number",
+      "required": true
+    },
+    "startType": {
+      "type": "string",
+      "required": true
+    },
+    "drawType": {
+      "type": "string",
+      "required": true
+    },
+    "capacityType": {
+      "type": "string",
+      "required": true
+    },
+    "guaranteeType": {
+      "type": "string",
+      "required": true
+    },
+    "guaranteeAmount": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
