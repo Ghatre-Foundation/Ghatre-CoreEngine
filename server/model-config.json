@@ -57,7 +57,6 @@
     "dataSource": "mongoDs",
     "public": true
   },
-
   "lottery": {
     "dataSource": "mongoDs",
     "public": true
