@@ -47,7 +47,7 @@
   "relations": {
     "depositsRel": {
       "type": "hasMany",
-      "model": "depost",
+      "model": "deposit",
       "foreignKey": "depositId"
     }
   },
