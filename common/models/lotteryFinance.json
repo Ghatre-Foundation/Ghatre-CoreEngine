@@ -38,6 +38,11 @@
       "type": "belongsTo",
       "model": "client",
       "foreignKey": "clientId"
+    },
+    "lotteryPresenceRel": {
+      "type": "belongsTo",
+      "model": "lotteryPresence",
+      "foreignKey": "lotteryPresenceId"
     }
   },
   "acls": [],
