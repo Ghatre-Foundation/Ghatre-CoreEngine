@@ -45,6 +45,10 @@
     "dataSource": "mongoDs",
     "public": true
   },
+  "clientReferral": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
   "container": {
     "dataSource": "fileStorage",
     "public": true
@@ -78,10 +82,6 @@
     "public": true
   },
   "lotteryPresence": {
-    "dataSource": "mongoDs",
-    "public": true
-  },
-  "referral": {
     "dataSource": "mongoDs",
     "public": true
   },

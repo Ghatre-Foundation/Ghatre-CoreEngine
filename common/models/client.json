@@ -61,7 +61,7 @@
     },
     "referralsRel": {
       "type": "hasMany",
-      "model": "referral",
+      "model": "clientReferral",
       "foreignKey": "clientId"
     },
     "receiptsRel": {
