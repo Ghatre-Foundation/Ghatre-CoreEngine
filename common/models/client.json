@@ -1,0 +1,59 @@
+{
+  "name": "client",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "password": {
+      "type": "string",
+      "required": true,
+      "index": true
+    },
+    "email": {
+      "type": "string",
+      "required": true,
+      "index": true
+    },
+    "username": {
+      "type": "string",
+      "required": true,
+      "index": true
+    },
+    "firstName": {
+      "type": "string",
+      "required": true,
+      "index": true
+    },
+    "lastName": {
+      "type": "string",
+      "required": true,
+      "index": true
+    },
+    "gender": {
+      "type": "string",
+      "required": true
+    },
+    "nationalCode": {
+      "type": "string",
+      "required": true
+    },
+    "identityCode": {
+      "type": "string",
+      "required": true
+    },
+    "referrer": {
+      "type": "string",
+      "required": false
+    },
+    "status": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
