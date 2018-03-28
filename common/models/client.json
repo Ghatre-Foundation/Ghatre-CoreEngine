@@ -101,9 +101,15 @@
     },
     "depositInstancesRel": {
       "type": "hasMany",
-      "model": "deposit",
+      "model": "depositInstance",
       "foreignKey": "clientId",
       "through": "depositPresence"
+    },
+    "lotteryInstancesRel": {
+      "type": "hasMany",
+      "model": "lotteryInstance",
+      "foreignKey": "clientId",
+      "through": "lotteryPresence"
     }
   },
   "acls": [],
