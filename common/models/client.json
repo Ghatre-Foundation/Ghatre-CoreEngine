@@ -73,6 +73,11 @@
       "type": "hasMany",
       "model": "clientCreditCard",
       "foreignKey": "clientId"
+    },
+    "informationRel": {
+      "type": "hasOne",
+      "model": "clientInfo",
+      "foreignKey": "clientId"
     }
   },
   "acls": [],
