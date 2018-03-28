@@ -93,6 +93,11 @@
       "type": "hasMany",
       "model": "depositFinance",
       "foreignKey": "clientId"
+    },
+    "lotteryFinancesRel": {
+      "type": "hasMany",
+      "model": "lotteryFinance",
+      "foreignKey": "clientId"
     }
   },
   "acls": [],
