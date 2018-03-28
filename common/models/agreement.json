@@ -6,17 +6,45 @@
     "validateUpsert": true
   },
   "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "explanation": {
+      "type": "string",
+      "required": true
+    },
+    "createDate": {
+      "type": "number",
+      "required": true
+    },
+    "modifyDate": {
+      "type": "number",
+      "required": true
+    },
+    "finalizeDate": {
+      "type": "number",
+      "required": true
+    },
+    "revisionCounter": {
+      "type": "number",
+      "required": true
+    },
+    "adminMessage": {
+      "type": "string",
+      "required": true
+    },
     "content": {
       "type": "string",
       "required": true
     },
     "fileURL": {
       "type": "string",
-      "required": false
+      "required": true
     },
     "filePath": {
       "type": "string",
-      "required": false
+      "required": true
     },
     "status": {
       "type": "string",
