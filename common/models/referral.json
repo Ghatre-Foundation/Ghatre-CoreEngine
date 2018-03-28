@@ -1,0 +1,22 @@
+{
+  "name": "referral",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "clientID": {
+      "type": "string",
+      "required": true
+    },
+    "clientJoinDate": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
