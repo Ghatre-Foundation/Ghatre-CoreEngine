@@ -1,0 +1,70 @@
+{
+  "name": "deposit",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "capacity": {
+      "type": "number",
+      "required": true
+    },
+    "period": {
+      "type": "number",
+      "required": true
+    },
+    "duration": {
+      "type": "number",
+      "required": true
+    },
+    "wage": {
+      "type": "number",
+      "required": true
+    },
+    "borrowerCount": {
+      "type": "number",
+      "required": true
+    },
+    "status": {
+      "type": "string",
+      "required": true
+    },
+    "shareInputValue": {
+      "type": "number",
+      "required": true
+    },
+    "shareOutputValue": {
+      "type": "number",
+      "required": true
+    },
+    "entranceFee": {
+      "type": "number",
+      "required": true
+    },
+    "startType": {
+      "type": "string",
+      "required": true
+    },
+    "depositType": {
+      "type": "string",
+      "required": true
+    },
+    "capacityType": {
+      "type": "string",
+      "required": true
+    },
+    "guaranteeType": {
+      "type": "string",
+      "required": true
+    },
+    "guaranteeAmount": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
