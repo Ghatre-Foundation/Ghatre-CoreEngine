@@ -56,7 +56,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "depositInstancesRel": {
+      "type": "hasMany",
+      "model": "depostInstance",
+      "foreignKey": "agreementId"
+    }
+  },
   "acls": [],
   "methods": {}
 }
