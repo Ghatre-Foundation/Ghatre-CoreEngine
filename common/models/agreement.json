@@ -61,6 +61,11 @@
       "type": "hasMany",
       "model": "depostInstance",
       "foreignKey": "agreementId"
+    },
+    "clientRel": {
+      "type": "belongsTo",
+      "model": "client",
+      "foreignKey": "clientId"
     }
   },
   "acls": [],
