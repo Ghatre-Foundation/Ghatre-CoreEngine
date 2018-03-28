@@ -64,7 +64,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "instanceRel": {
+      "type": "hasMany",
+      "model": "depostInstance",
+      "foreignKey": "depositId"
+    }
+  },
   "acls": [],
   "methods": {}
 }
