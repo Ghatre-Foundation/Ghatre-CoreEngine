@@ -1,0 +1,34 @@
+{
+  "name": "depositFinance",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "status": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "required": true
+    },
+    "date": {
+      "type": "number",
+      "required": true
+    },
+    "turn": {
+      "type": "number",
+      "required": true
+    },
+    "amount": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
