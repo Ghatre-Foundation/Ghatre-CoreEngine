@@ -63,6 +63,11 @@
       "type": "hasMany",
       "model": "referral",
       "foreignKey": "clientId"
+    },
+    "receiptsRel": {
+      "type": "hasMany",
+      "model": "receipt",
+      "foreignKey": "clientId"
     }
   },
   "acls": [],
