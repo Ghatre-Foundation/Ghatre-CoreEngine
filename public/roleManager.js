@@ -29,7 +29,7 @@ module.exports = {
         }
       }, function (err, roles) {
         if (err)
-          throw err
+          console.error(err)
         var roleNames = roles.map(function (role) {
           return role.name
         })
