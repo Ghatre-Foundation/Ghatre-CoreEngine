@@ -14,26 +14,26 @@
     ]
   },
   "User": {
-    "dataSource": "db",
+    "dataSource": "mongoDs",
     "public": false
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "mongoDs",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "mongoDs",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "mongoDs",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "mongoDs",
     "public": false
   },
   "agreement": {
@@ -109,6 +109,10 @@
     "public": true
   },
   "statute": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "manager": {
     "dataSource": "mongoDs",
     "public": true
   }
